@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,14 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alex McKeever</title>
 
-  <!--
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -22,15 +17,9 @@
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
-
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
+    <!-- SIDEBAR -->
 
     <aside class="sidebar" data-sidebar>
 
@@ -41,14 +30,12 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Alex McKeever</h1>
-
-          <p class="title">Software development student</p>
+          <h1 class="name">Alex McKeever</h1>
+          <p class="title">Software Development Graduate</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
-
           <ion-icon name="chevron-down"></ion-icon>
         </button>
 
@@ -61,59 +48,37 @@
         <ul class="contacts-list">
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="mailto:alexmck2004@gmail.com" class="contact-link">alexmck2004@gmail.com</a>
+              <a href="mailto:alexmck2004@gmail.com" class="contact-link">
+                alexmck2004@gmail.com
+              </a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Phone</p>
-
-              <a href="tel:+353 85 213 5685" class="contact-link">085 213 5685</a>
+              <a href="tel:+353852135685" class="contact-link">
+                085 213 5685
+              </a>
             </div>
-
           </li>
 
           <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">January 20, 2004</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
-
             <div class="contact-info">
               <p class="contact-title">Location</p>
-
               <address>Cork city, Ireland</address>
             </div>
-
           </li>
 
         </ul>
@@ -122,15 +87,17 @@
 
         <ul class="social-list">
 
-          <li class="social-item"> <!-- LinkedIn -->
-            <a href="https://www.LinkedIn.com/in/Alex-Mc-Keever" class="social-link">
-              <ion-icon name="logo-LinkedIn"></ion-icon>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/Alex-Mc-Keever"
+               target="_blank" rel="noopener noreferrer" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-          </li> 
+          </li>
 
-          <li class="social-item"> <!-- GitHub -->
-            <a href="https://www.github.com/Alexmck04 " class="social-link">
-              <ion-icon name="logo-GitHub"></ion-icon>
+          <li class="social-item">
+            <a href="https://github.com/Alexmck04"
+               target="_blank" rel="noopener noreferrer" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
@@ -141,749 +108,528 @@
     </aside>
 
 
-
-
-
-    <!--
-      - #main-content
-    -->
+    <!-- MAIN CONTENT -->
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-        </ul>
-
-      </nav>
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm a software development student in my final year with experience across all areas of software development, 
-            from building web applications and backend systems to working with databases and version control. 
-            I have a solid foundation in programming, which allows me to create functional and maintainable software.
-          </p>
-
-          <p>
-            I also have a strong interest in software testing and quality assurance.
-            I have hands-on experience carrying out exploratory testing, executing test cases, and writing clear bug reports.
-            I’m particularly interested in ensuring applications are reliable, user-friendly, and perform as expected in real-world scenarios.
-          </p>
-      
-        </section>
-
-
-        <!--
-          - Experience - Frontend, backend, testing, api
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What I do </h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/frontend-developer-icon-removebg-preview.png" alt="Frontend icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Front end</h4>
-
-                <p class="service-item-text">
-                  React, Tailwind, HTML, CSS, JavaScript
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/backend-development-icon-removebg-preview.png" alt="Backend development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Back end</h4>
-
-                <p class="service-item-text">
-                  Python, JavaScript, MongoDB, MySQL, Firebase
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/software-testing-icon-removebg-preview.png" alt="Software testing graphic" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Testing</h4>
-
-                <p class="service-item-text">
-                  Selenium Robot Framework, 
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/git-3-removebg-preview.png" alt="git icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">API</h4>
-
-                <p class="service-item-text">
-                  Git, Rest API, JSON
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - Technical Skills
-          Html, css, javascript, typescript, python, C#, node js, react, MongoDB, MySQL, PostgreSQL, Firebase, 
-          Github, git, Arduino, VSCode, VS, Windows, MacOS, Linux, Selenium Robot framework
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Technical Experience</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/html-logo-removebg-preview.png" alt="HTML logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/CSS-Logo-removebg-preview.png" alt="css logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/javascript-logo-removebg-preview.png" alt="javascript logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/Typescript-logo-removebg-preview.png" alt="typescript logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/Python-logo-removebg-preview.png" alt="python logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/Csharp-Logo2-removebg-preview.png" alt="c sharp logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/node-js-removebg-preview.png" alt="node logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/react-logo-removebg-preview.png" alt="react logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/mongodb-logo-removebg-preview.png" alt="MongoDB logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/mysql-logo-removebg-preview.png" alt="MySQL logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/postgresql-logo-removebg-preview.png" alt="PostgreSQL logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/firebase-logo-removebg-preview.png" alt="Firebase logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/github-logo-removebg-preview.png" alt="Github logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/git-logo-removebg-preview.png" alt="Git logo">
-              </a>
-            </li>
-
-                                    </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/gitlab-logo-removebg-preview.png" alt="Gitlab logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/selenium-logo-removebg-preview.png" alt="Selenium logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/robot-framework-logo-removebg-preview.png" alt="Robot framework logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/arduino-logo-removebg-preview.png" alt="Arduino logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/vscode-logo-removebg-preview.png" alt="VScode logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/visual-studio-logo-removebg-preview.png" alt="vs logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/windows-logo-removebg-preview.png" alt="windows logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/apple-logo-removebg-preview.png" alt="Mac logo">
-              </a>
-            </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/linux-logo-removebg-preview.png" alt="Linux logo">
-              </a>
-            </li>
-
-                        </li>
-
-                        <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/jira-logo2-removebg-preview.png" alt="Jira logo">
-              </a>
-            </li>
-
-                        </li>
-
-                                    <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/Confluence-logo-removebg-preview.png" alt="Confluence logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-    
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+      <!-- ABOUT ME / RESUME TABS -->
+
+<div class="page-heading" role="tablist" aria-label="Main sections">
+  <button
+    class="page-tab active"
+    id="about-tab"
+    type="button"
+    role="tab"
+    aria-selected="true"
+    aria-controls="about-panel"
+    data-tab="about">
+    About Me
+  </button>
+
+  <button
+    class="page-tab"
+    id="resume-tab"
+    type="button"
+    role="tab"
+    aria-selected="false"
+    aria-controls="resume-panel"
+    data-tab="resume">
+    Resume
+  </button>
+</div>
+
+
+      <!-- SHARED CONTENT CONTAINER -->
+
+      <article class="page-container active">
+
+        <!-- ABOUT ME PANEL -->
+
+        <section class="tab-panel about active"
+                 id="about-panel"
+                 role="tabpanel"
+                 aria-labelledby="about-tab"
+                 data-panel="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+
+            <p>
+              I'm a Software Development graduate from Munster Technological
+              University, with experience across web and mobile application
+              development, databases, APIs and cloud services through university
+              projects and an R&D placement.
+            </p>
+
+            <p>
+              I also have a strong interest in software testing and quality
+              assurance. I have hands-on experience with exploratory testing,
+              executing test cases, writing bug reports and using automation
+              tools. I'm particularly interested in building reliable,
+              user-friendly software and ensuring applications work as expected.
+            </p>
+
+          </section>
+
+
+          <!-- WHAT I DO -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What I do</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/frontend-developer-icon-removebg-preview.png"
+                       alt="Frontend development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Front end</h4>
+                  <p class="service-item-text">
+                    React, HTML, CSS, JavaScript
+                  </p>
+                </div>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web design</button>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/backend-development-icon-removebg-preview.png"
+                       alt="Backend development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Back end</h4>
+                  <p class="service-item-text">
+                    Python, Java, REST APIs, databases
+                  </p>
+                </div>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/software-testing-icon-removebg-preview.png"
+                       alt="Software testing icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Testing</h4>
+                  <p class="service-item-text">
+                    Selenium, Robot Framework, manual and functional testing
+                  </p>
+                </div>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/git-3-removebg-preview.png"
+                       alt="Development tools icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Development tools</h4>
+                  <p class="service-item-text">
+                    Git, GitHub, GitLab, AWS and JSON
+                  </p>
+                </div>
               </li>
 
             </ul>
 
-          </div>
+          </section>
 
-          <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+          <!-- TECHNICAL EXPERIENCE -->
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+          <section class="clients">
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
+            <h3 class="h3 clients-title">Technical Experience</h3>
 
-                <h3 class="project-title">Finance</h3>
+            <ul class="clients-list has-scrollbar">
 
-                <p class="project-category">Web development</p>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/html-logo-removebg-preview.png" alt="HTML"></a>
+              </li>
 
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/CSS-Logo-removebg-preview.png" alt="CSS"></a>
+              </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/javascript-logo-removebg-preview.png" alt="JavaScript"></a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/Typescript-logo-removebg-preview.png" alt="TypeScript"></a>
+              </li>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/Python-logo-removebg-preview.png" alt="Python"></a>
+              </li>
 
-                <h3 class="project-title">Orizon</h3>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/Csharp-Logo2-removebg-preview.png" alt="C Sharp"></a>
+              </li>
 
-                <p class="project-category">Web development</p>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/node-js-removebg-preview.png" alt="Node.js"></a>
+              </li>
 
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/react-logo-removebg-preview.png" alt="React"></a>
+              </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/mongodb-logo-removebg-preview.png" alt="MongoDB"></a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/mysql-logo-removebg-preview.png" alt="MySQL"></a>
+              </li>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/postgresql-logo-removebg-preview.png" alt="PostgreSQL"></a>
+              </li>
 
-                <h3 class="project-title">Fundo</h3>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/firebase-logo-removebg-preview.png" alt="Firebase"></a>
+              </li>
 
-                <p class="project-category">Web design</p>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/github-logo-removebg-preview.png" alt="GitHub"></a>
+              </li>
 
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/git-logo-removebg-preview.png" alt="Git"></a>
+              </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/gitlab-logo-removebg-preview.png" alt="GitLab"></a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/selenium-logo-removebg-preview.png" alt="Selenium"></a>
+              </li>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/robot-framework-logo-removebg-preview.png" alt="Robot Framework"></a>
+              </li>
 
-                <h3 class="project-title">Brawlhalla</h3>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/arduino-logo-removebg-preview.png" alt="Arduino"></a>
+              </li>
 
-                <p class="project-category">Applications</p>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/vscode-logo-removebg-preview.png" alt="Visual Studio Code"></a>
+              </li>
 
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/visual-studio-logo-removebg-preview.png" alt="Visual Studio"></a>
+              </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/windows-logo-removebg-preview.png" alt="Windows"></a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/apple-logo-removebg-preview.png" alt="Apple"></a>
+              </li>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/linux-logo-removebg-preview.png" alt="Linux"></a>
+              </li>
 
-                <h3 class="project-title">DSM.</h3>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/jira-logo2-removebg-preview.png" alt="Jira"></a>
+              </li>
 
-                <p class="project-category">Web design</p>
+              <li class="clients-item">
+                <a href="#"><img src="./assets/images/Confluence-logo-removebg-preview.png" alt="Confluence"></a>
+              </li>
 
-              </a>
-            </li>
+            </ul>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+          </section>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-          </ul>
         </section>
+
+
+        <!-- RESUME PANEL -->
+
+        <section class="tab-panel resume"
+                 id="resume-panel"
+                 role="tabpanel"
+                 aria-labelledby="resume-tab"
+                 data-panel="resume"
+                 hidden>
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+
+          <!-- PROFESSIONAL PROFILE -->
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="person-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Professional Profile</h3>
+            </div>
+
+            <p class="timeline-text">
+              Software Development graduate from Munster Technological
+              University with experience developing web and mobile applications,
+              working with databases and APIs, and exploring cloud services.
+              Strongest in Python, with experience in JavaScript and Java.
+              Interested in software development, testing and quality assurance.
+            </p>
+
+          </section>
+
+
+          <!-- EDUCATION -->
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Munster Technological University
+                </h4>
+                <span>September 2022 – October 2026</span>
+                <p class="timeline-text">
+                  Bachelor of Science in Software Development
+                  <br>
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  XAMK University of Applied Sciences, Finland
+                </h4>
+                <span>January 2025 – May 2025</span>
+                <p class="timeline-text">
+                  Erasmus+ exchange scholarship, competitively awarded to
+                  represent MTU. Studied at the Mikkeli campus in an
+                  international and multicultural academic environment.
+                </p>
+              </li>
+
+            </ol>
+
+          </section>
+
+
+          <!-- TECHNICAL SKILLS -->
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Technical Skills</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Programming</h4>
+                <p class="timeline-text">
+                  Python, Java, HTML, CSS and JavaScript
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Development</h4>
+                <p class="timeline-text">
+                  React, full-stack development, web and mobile applications,
+                  REST APIs
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Databases and Cloud</h4>
+                <p class="timeline-text">
+                  PostgreSQL, MySQL, Firebase, AWS S3, DynamoDB and Lambda
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Testing and QA</h4>
+                <p class="timeline-text">
+                  Selenium, Robot Framework, API testing, functional testing,
+                  integration testing, UI testing and regression testing
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Tools</h4>
+                <p class="timeline-text">
+                  Git, GitHub, GitLab, ClickUp and CLI
+                </p>
+              </li>
+
+            </ol>
+
+          </section>
+
+
+          <!-- EXPERIENCE -->
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">
+                  R&D Assistant – Work Placement
+                </h4>
+
+                <span>Nimbus Centre, MTU</span>
+
+                <p class="timeline-text">
+                  Worked remotely as part of a small team developing a fish
+                  identification web and mobile application.
+                </p>
+
+                <p class="timeline-text">
+                  Developed application features using React, JavaScript,
+                  JSX and CSS, with Capacitor for mobile deployment.
+                </p>
+
+                <p class="timeline-text">
+                  Evaluated image recognition services including AWS
+                  Rekognition, Google Vision and Fishial AI, helping select
+                  and integrate the chosen solution.
+                </p>
+
+                <p class="timeline-text">
+                  Explored AWS S3, DynamoDB and Lambda, worked with APIs,
+                  and carried out testing across web and mobile versions.
+                  Used GitLab and task management tools while collaborating
+                  with another student and an academic supervisor.
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">
+                  Self-employed Personal Trainer
+                </h4>
+
+                <span>June 2025 – Present</span>
+
+                <p class="timeline-text">
+                  Manage a portfolio of clients, develop tailored fitness
+                  and nutrition plans, track progress and maintain client
+                  relationships. Developed communication, organisation,
+                  leadership and problem-solving skills through running
+                  an independent service.
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+
+          <!-- PROJECTS -->
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="folder-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Projects</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">
+                  Neuromind System – Alzheimer's Detection Application
+                </h4>
+
+                <p class="timeline-text">
+                  Group project developing a system spanning web, Android,
+                  database and machine learning components.
+                </p>
+
+                <p class="timeline-text">
+                  Contributed to backend database design, Firebase hosting,
+                  functional and integration testing, and manual test cases
+                  covering user workflows.
+                </p>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">
+                  SkillNet – Peer-to-peer Learning Platform
+                </h4>
+
+                <p class="timeline-text">
+                  Founding member of a team that developed Skill-Net.io,
+                  a peer-to-peer learning platform pitched for and funded
+                  by INGENIUM.
+                </p>
+
+                <p class="timeline-text">
+                  Worked with UNA CMS configuration and customisation,
+                  resolved functional inconsistencies and contributed
+                  throughout the project lifecycle, including pitching,
+                  onboarding and platform updates.
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+        </section>
+
       </article>
+
     </div>
+
   </main>
 
-  <!--
-    - custom js link
-  -->
+
+  <!-- JAVASCRIPT -->
+
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+  <!-- IONICONS -->
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
-
 </html>
